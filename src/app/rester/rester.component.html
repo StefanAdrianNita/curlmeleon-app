@@ -1,0 +1,23 @@
+<section class="flex justify-center mt-2 mb-2 ps-4 pe-4">
+    <div class="border-2 border-solid rounded-md border-neutral-700 w-svw h-14 p-2 flex justify-between items-center">
+        <!-- Verb Button -->
+        <article class="flex w-2/12 max-w-24">
+            <select class="block w-full border-transparent rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 disabled:pointer-events-none bg-transparent text-gray-400 focus:ring-gray-600"
+            (change)="verbChange($event)">
+                <option>GET</option>
+                <option>POST</option>
+                <option>DELETE</option>
+              </select>
+        </article>
+        <!-- Url input --> 
+        <article class="ms-2 flex w-full me-2">
+            <input type="text" class="w-full bg-transparent" placeholder="URL" (input)="urlChange($event)">
+        </article>
+        <article class="flex w-2/12 max-w-28 h-full">
+            <button class="w-full h-full bg-neutral-500 text-white flex justify-around items-center">
+                <section><span class="text-md font-medium">SEND</span>
+                </section>
+            </button>
+        </article>
+    </div>
+</section>
