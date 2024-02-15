@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "curlmeleon-app",
-    "version": "0.0.0"
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -21,7 +21,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "cURLmeleon v.0.0.0_Development",
+        "title": "cURLmeleon v.1.0.0_Development",
         "width": 800,
         "minWidth": 800,
         "height": 600,

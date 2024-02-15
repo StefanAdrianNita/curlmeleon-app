@@ -17,11 +17,13 @@ export class ResterComponent {
 
   verbChange(event: any) {
     this.request.method = event.target.value;
-    console.log(this.request);
   }
 
   urlChange(event: any) {
     this.request.url = event.target.value;
+  }
+
+  reqSend() {
     console.log(this.request);
   }
 }
